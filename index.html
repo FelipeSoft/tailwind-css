@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://use.fontawesome.com/a443ad607e.js"></script>
+</head>
+<body class="bg-white">
+    <div class="w-screen h-screen p-5 flex items-start gap-4">
+        <div class="flex justify-center items-center flex-col">
+            <h2 class="mb-4">Button</h2>
+            <div class="bg-black w-max h-max border-4 border-black rounded-lg">
+                <button class="relative bottom-2 bg-yellow-500 shadow-mobileFirstDefault shadow-yellow-800 rounded-lg text-white text-xl font-bold py-3 px-6 active:shadow-none active:translate-y-2 active:bg-yellow-600 transition-all">Mobile First</button>
+            </div>
+        </div>
+        <div class="flex justify-center items-center flex-col">
+            <h2 class="mb-4">Alert</h2>
+            <div class="max-w-max bg-blue-200 border-2 border-blue-300 rounded-md p-3 flex justify-between items-center">
+                <div class="flex items-center justify-center">
+                    <i class="fa fa-info-circle text-blue-500 mr-3" style="font-size: 1.5rem"></i>
+                    <p class="font-normal text-blue-500"><span class="font-medium text-blue-500">Info:</span> User pending action</p>
+                </div>
+                <div class="flex items-center justify-center ml-12">
+                    <div class="h-1 w-4 bg-blue-300 rotate-45 absolute"></div>
+                    <div class="h-1 w-4 bg-blue-300 -rotate-45"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center flex-col">
+            <h2 class="mb-4">Friend Request Card</h2>
+            <div class="max-w-max max-h-max flex flex-col items-center p-3 bg-white rounded-md border-2 border-gray-300">
+                <div class="flex items-center">
+                    <div class="w-20 h-20">
+                        <img class="w-full h-full object-cover rounded-full" src="https://amadahipertrofia.com/wp-content/uploads/2021/09/ramon-dino.jpg" alt="">
+                    </div>
+                    <div class="ml-3">
+                        <h3 class="font-medium">Ramon Dino</h3>
+                        <p class="text-gray-500">Enviou uma solicitação de amizade.</p>
+                    </div>
+                </div>
+                <div class="w-full mt-3 flex items-center justify-end">
+                    <button class="bg-blue-600 text-white rounded-md py-1 px-5">Aceitar</button>
+                    <button class="bg-gray-300 py-1 px-5 rounded-md ml-3">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
