@@ -8,6 +8,9 @@ module.exports = {
       },
       fontSize: {
         "customIcon": "2rem"
+      },
+      animation: {
+        "spin-slow": "spin 2s linear infinite"
       }
     },
   },
