@@ -10,7 +10,7 @@
 <body class="bg-white">
     <div class="w-screen h-screen p-5 flex items-start gap-4">
         <div class="flex justify-center items-center flex-col">
-            <h2 class="mb-4">Button</h2>
+            <h2 class="mb-4">Button 1</h2>
             <div class="bg-black w-max h-max border-4 border-black rounded-lg">
                 <button class="relative bottom-2 bg-yellow-500 shadow-mobileFirstDefault shadow-yellow-800 rounded-lg text-white text-xl font-bold py-3 px-6 active:shadow-none active:translate-y-2 active:bg-yellow-600 transition-all">Mobile First</button>
             </div>
@@ -49,6 +49,17 @@
         <div class="flex justify-center items-center flex-col">
             <h2 class="mb-4">Loading</h2>
             <div class="w-16 h-16 border-8 border-blue-600 border-dotted rounded-full animate-spin-slow"></div>
+        </div>
+        <div class="flex justify-center items-center flex-col">
+            <h2 class="mb-4">Button 2</h2>
+            <button class="group flex items-center relative">
+                <div class="flex items-center justify-center mr-3 w-10 h-10 rounded-full absolute bg-black group-hover:w-full transition-all">      
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-white absolute left-0 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+                    </svg>      
+                </div>
+                <a href="" class="ml-12 z-10 group-hover:text-white pr-4">Sign in</a>
+            </button>
         </div>
     </div>
 </body>
